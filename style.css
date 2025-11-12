@@ -1,3 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=SUSE+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+:root {
+--transicao: rgb(129, 62, 196); 
+--branco: rgb(209, 209, 209);
+--rosinha: #caa8f5ff;
+--azul-claro: rgb(50, 37, 88);
+--roxo: #592e83ff;
+--roxo-escuro: #230c33ff;
+--angelo: #000;
+  --title: "SUSE Mono", sans-serif;
+  --text: "Lato", sans-serif;
+}
+
 /* Estilização básica e do corpo */
 body {
   font-family: Arial, sans-serif;
@@ -84,4 +97,28 @@ body {
 #restart-button:hover {
   background-color: #ba51ac;
   color: #d2d2d2;
+}
+
+.historia{
+  font-size: 18px;
+  font-family: var(--title);
+  background-color: var(--roxo);
+  color: var(--branco);
+  border: 2px solid var(--branco);
+  padding: 13px 23px;
+  margin: 10px 5px;
+  cursor: pointer;
+  border-radius: 7px;
+}
+.historia:hover {
+  font-size: 18px;
+  font-family: var(--title);
+  background-color: var(--transicao);
+  color: var(--angelo);
+  border: 2px solid var(--angelo);
+  padding: 13px 23px;
+  margin: 10px 5px;
+  cursor: pointer;
+  border-radius: 7px;
+  transition: 0.7s;
 }
