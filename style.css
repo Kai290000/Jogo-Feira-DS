@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=SUSE+Mono:ital,wght@0,100..800;1,100..800&display=swap');
 :root {
 --botao: #343d6e;
+--botao-mouse: #747fbb;
 --azul-escuro: #141b41;
 --ciano-escuro: #306bac;
 --azul-claro: #6f9ceb;
@@ -120,7 +121,7 @@ body {
 .historia:hover {
   font-size: 18px;
   font-family: var(--title);
-  background-color: var(--ciano-escuro);
+  background-color: var(--botao-mouse);
   color: var(--angelo);
   border: 2px solid var(--angelo);
   padding: 13px 23px;
